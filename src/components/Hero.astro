@@ -1,0 +1,34 @@
+---
+import { whatsappUrl } from "@data/site";
+---
+
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <video
+    class="hero__video"
+    src="/assets/video/heroshobhamaniyat.mp4"
+    poster="/assets/events/IMG-20260626-WA0025.jpg"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    aria-hidden="true"
+    tabindex="-1"
+  ></video>
+  <div class="hero__shade" aria-hidden="true"></div>
+  <div class="hero__grain" aria-hidden="true"></div>
+  <div class="hero__content section-shell">
+    <p class="eyebrow" data-reveal>Since 1986</p>
+    <h1 id="hero-title" data-reveal>Celebrations shaped with light, sound, and legacy.</h1>
+    <p class="hero__copy" data-reveal>
+      A trusted event house for weddings, festivals, public functions, and meaningful gatherings.
+    </p>
+    <a class="action-link action-link--hero" href={whatsappUrl} target="_blank" rel="noreferrer" data-reveal>
+      Start Your Event
+    </a>
+  </div>
+  <div class="hero__scroll" aria-hidden="true">
+    <span></span>
+    <small>Scroll</small>
+  </div>
+</section>

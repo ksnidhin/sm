@@ -1,0 +1,30 @@
+---
+import { storyChapters } from "@data/site";
+---
+
+<section class="story section-band" id="about" aria-labelledby="story-title">
+  <div class="section-shell story__intro">
+    <p class="eyebrow" data-reveal>Real work, real rooms</p>
+    <h2 id="story-title" data-reveal>Every event begins long before the lights come on.</h2>
+    <p data-reveal>
+      The photographs hold the character of the brand: prepared stages, measured lighting, reliable sound,
+      and rooms designed for the people who gather there.
+    </p>
+  </div>
+  <div class="story__chapters">
+    {
+      storyChapters.map((chapter) => (
+        <article class="story-card" data-parallax-card>
+          <figure class="story-card__media">
+            <img src={chapter.image} alt={chapter.alt} loading="lazy" decoding="async" />
+          </figure>
+          <div class="story-card__body" data-reveal>
+            <p class="eyebrow">{chapter.kicker}</p>
+            <h3>{chapter.title}</h3>
+            <p>{chapter.text}</p>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</section>

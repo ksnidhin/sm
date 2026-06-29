@@ -1,0 +1,24 @@
+---
+import { navigationLinks } from "@data/site";
+---
+
+<header class="site-header" data-header>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <nav class="site-header__nav" aria-label="Primary navigation">
+    <a class="site-header__brand" href="#home" aria-label="Shobha Maniyat home">
+      <img src="/assets/logo/shobha-maniyat.svg" alt="Shobha Maniyat" width="230" height="66" />
+    </a>
+    <div class="site-header__links" aria-label="Homepage sections">
+      {
+        navigationLinks.map((link) => (
+          <a href={link.href}>
+            {link.label}
+          </a>
+        ))
+      }
+    </div>
+    <a class="action-link action-link--small" href="#contact">
+      Contact
+    </a>
+  </nav>
+</header>

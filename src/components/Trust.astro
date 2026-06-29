@@ -1,0 +1,42 @@
+---
+import { eventTypes } from "@data/site";
+---
+
+<section class="trust section-band section-band--quiet" aria-labelledby="trust-title">
+  <div class="section-shell trust__grid">
+    <div class="trust__statement" data-reveal>
+      <p class="eyebrow">Established 1986</p>
+      <h2 id="trust-title">Four decades of showing up before the celebration begins.</h2>
+      <p>
+        Shobha Maniyat carries the steadiness people look for when an event cannot feel improvised:
+        experienced hands, familiar processes, and respect for the occasion.
+      </p>
+    </div>
+    <div class="trust__metrics" aria-label="Brand trust highlights">
+      <div data-reveal>
+        <strong>40+</strong>
+        <span>Years of event work</span>
+      </div>
+      <div data-reveal>
+        <strong>6</strong>
+        <span>Core service categories</span>
+      </div>
+      <div data-reveal>
+        <strong>1</strong>
+        <span>Coordinated event team</span>
+      </div>
+    </div>
+    <div class="trust__events" data-reveal>
+      <h3>Trusted for</h3>
+      <ul>
+        {eventTypes.map((type) => <li>{type}</li>)}
+      </ul>
+    </div>
+    <figure class="testimonial" data-reveal>
+      <blockquote>
+        “The best event teams are noticed through the calm they create. That is the standard here.”
+      </blockquote>
+      <figcaption>Client confidence, earned over time</figcaption>
+    </figure>
+  </div>
+</section>

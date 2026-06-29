@@ -1,0 +1,25 @@
+---
+import { services } from "@data/site";
+---
+
+<section class="services section-band section-band--ivory" id="services" aria-labelledby="services-title">
+  <div class="section-shell">
+    <div class="section-heading">
+      <p class="eyebrow" data-reveal>What we handle</p>
+      <h2 id="services-title" data-reveal>One team for the full event environment.</h2>
+    </div>
+    <div class="service-list">
+      {
+        services.map((service, index) => (
+          <article class="service-line" data-reveal>
+            <span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+            <div>
+              <h3>{service.title}</h3>
+              <p>{service.text}</p>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+---
+import { galleryImages } from "@data/site";
+---
+
+<section class="gallery section-band" id="gallery" aria-labelledby="gallery-title">
+  <div class="section-shell gallery__heading">
+    <p class="eyebrow" data-reveal>Visual journey</p>
+    <h2 id="gallery-title" data-reveal>Stages, halls, consoles, and the quiet craft between them.</h2>
+  </div>
+  <div class="gallery__rail" aria-label="Event gallery">
+    {
+      galleryImages.map((image, index) => (
+        <button
+          class="gallery-frame"
+          type="button"
+          data-gallery-image={image.src}
+          data-gallery-alt={image.alt}
+          data-gallery-caption={image.caption}
+          aria-label={`Open image ${index + 1}: ${image.caption}`}
+        >
+          <img src={image.src} alt={image.alt} loading="lazy" decoding="async" />
+          <span>{image.caption}</span>
+        </button>
+      ))
+    }
+  </div>
+</section>

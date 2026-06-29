@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "@components/Header.astro";
+import Hero from "@components/Hero.astro";
+import StoryChapters from "@components/StoryChapters.astro";
+import Services from "@components/Services.astro";
+import Gallery from "@components/Gallery.astro";
+import Trust from "@components/Trust.astro";
+import ClosingCta from "@components/ClosingCta.astro";
+import Footer from "@components/Footer.astro";
+import Lightbox from "@components/Lightbox.astro";
+---
+
+<BaseLayout
+  title="Shobha Maniyat | Event Management Since 1986"
+  description="A heritage-rich event management company for lighting, sound, decoration, catering, venue styling, and coordination."
+>
+  <Header />
+  <main id="main-content">
+    <Hero />
+    <StoryChapters />
+    <Services />
+    <Gallery />
+    <Trust />
+    <ClosingCta />
+  </main>
+  <Footer />
+  <Lightbox />
+</BaseLayout>

@@ -1,0 +1,35 @@
+---
+import { footerConnectLinks, navigationLinks } from "@data/site";
+---
+
+<footer class="site-footer">
+  <div class="section-shell site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="/assets/logo/shobha-maniyat.svg" alt="Shobha Maniyat" width="230" height="66" loading="lazy" decoding="async" />
+      <p>
+        Event management, light, sound, decoration, catering, and coordination shaped with experience since 1986.
+      </p>
+    </div>
+    <nav class="site-footer__links" aria-label="Quick links">
+      <h2>Quick Links</h2>
+      {
+        navigationLinks.map((link) => (
+          <a href={link.href}>{link.label}</a>
+        ))
+      }
+    </nav>
+    <nav class="site-footer__links" aria-label="Connect">
+      <h2>Connect</h2>
+      {
+        footerConnectLinks.map((link) => (
+          <a href={link.href} target="_blank" rel="noreferrer">
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+  <div class="section-shell site-footer__bottom">
+    <p>&copy; Shobha Maniyat <span data-current-year></span>. All rights reserved.</p>
+  </div>
+</footer>
