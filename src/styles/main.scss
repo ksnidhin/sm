@@ -237,12 +237,15 @@ p {
 }
 
 .site-header__brand {
-  width: clamp(128px, 34vw, 176px);
+  width: clamp(138px, 34vw, 190px);
   display: block;
+  overflow: hidden;
+  border-radius: var(--radius-small);
 
   img {
     width: 100%;
     height: auto;
+    filter: saturate(1.05) contrast(1.05);
   }
 }
 
@@ -598,7 +601,8 @@ p {
   justify-items: start;
 
   img {
-    width: min(230px, 70vw);
+    width: min(320px, 76vw);
+    border-radius: var(--radius-small);
   }
 
   h2 {
@@ -620,8 +624,9 @@ p {
   padding-bottom: clamp(2.2rem, 6vw, 4rem);
 
   img {
-    width: min(230px, 72vw);
+    width: min(300px, 72vw);
     margin-bottom: 1.4rem;
+    border-radius: var(--radius-small);
   }
 
   p {
