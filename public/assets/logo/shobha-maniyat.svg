@@ -1,30 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 132" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
   <title id="title">Shobha Maniyat</title>
-  <desc id="desc">A premium gold and white vector logo for Shobha Maniyat.</desc>
+  <desc id="desc">Vector recreation of the Shobha Maniyat trademark logo for dark backgrounds.</desc>
   <defs>
-    <linearGradient id="gold" x1="43" y1="18" x2="384" y2="118" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFD76D"/>
-      <stop offset="0.45" stop-color="#F5A90B"/>
-      <stop offset="1" stop-color="#C98206"/>
+    <linearGradient id="sm-gold" x1="62" y1="24" x2="676" y2="226" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd56a"/>
+      <stop offset="0.42" stop-color="#f5a90b"/>
+      <stop offset="1" stop-color="#c77b05"/>
     </linearGradient>
+    <filter id="sm-soft-shadow" x="-8%" y="-20%" width="116%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".28"/>
+    </filter>
   </defs>
-  <g fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M90 27c-26 4-45 25-45 50 0 23 16 42 38 48" stroke-width="7"/>
-    <path d="M94 43c-18 4-31 18-31 35 0 16 10 29 26 34" stroke-width="5"/>
-    <path d="M98 60c-9 3-16 10-16 19 0 8 5 15 13 18" stroke-width="5"/>
-    <path d="M336 18c42 1 76 30 86 70-15-24-42-39-73-38-22 1-42 10-57 24 8-29 24-49 44-56Z" stroke-width="0" fill="url(#gold)"/>
-    <path d="M292 96c17 14 38 20 62 18 29-2 54-18 68-43-9 40-44 70-86 72-18-5-34-20-44-47Z" stroke-width="0" fill="url(#gold)"/>
-  </g>
-  <g fill="#fff7e8">
-    <path d="M131.5 91.8c-7.1 0-13.3-1.2-18.7-3.7-5.3-2.5-9.4-6-12.3-10.5l15-9.3c4.1 5.8 9.6 8.7 16.7 8.7 3.8 0 6.7-.7 8.7-2.1 2-1.5 3-3.4 3-5.8 0-2.6-1.2-4.6-3.7-6-2.4-1.4-6.3-2.7-11.7-4-8.2-2-14.5-4.8-18.9-8.2-4.4-3.5-6.6-8.8-6.6-15.8 0-7.2 2.7-13 8.2-17.2 5.5-4.3 12.3-6.4 20.5-6.4 13.6 0 23.7 5.1 30.4 15.3l-14.5 9.4c-4.1-6.4-9.3-9.6-15.6-9.6-3.3 0-5.8.7-7.7 2.1-1.8 1.3-2.7 3.2-2.7 5.5 0 2.5 1.1 4.4 3.3 5.7 2.3 1.3 6 2.6 11.2 3.9 8.8 2.2 15.4 5 19.9 8.4 4.5 3.4 6.8 8.8 6.8 16.1 0 7.2-2.8 12.9-8.4 17.1-5.6 4.3-13.2 6.4-22.9 6.4Z"/>
-    <path d="M170.5 90.6V12.7h18.3v29.6h30.4V12.7h18.4v77.9h-18.4V58.4h-30.4v32.2h-18.3Z"/>
-    <path d="M286.1 91.8c-11.8 0-21.6-3.8-29.3-11.4-7.7-7.7-11.5-17.4-11.5-29.1 0-11.6 3.8-21.2 11.5-28.9 7.7-7.7 17.5-11.6 29.3-11.6 11.9 0 21.7 3.9 29.3 11.6 7.7 7.7 11.5 17.3 11.5 28.9 0 11.7-3.8 21.4-11.5 29.1-7.6 7.6-17.4 11.4-29.3 11.4Zm0-16.8c6.4 0 11.7-2.2 15.8-6.7 4.1-4.5 6.2-10.1 6.2-17 0-6.8-2.1-12.4-6.2-16.8-4.1-4.5-9.4-6.7-15.8-6.7-6.3 0-11.6 2.2-15.8 6.7-4.1 4.4-6.2 10-6.2 16.8 0 6.9 2.1 12.5 6.2 17 4.2 4.5 9.5 6.7 15.8 6.7Z"/>
-    <path d="M101.8 119.5v-16.8h7.8l5.1 10.3 5.1-10.3h7.8v16.8h-5.8v-9.7l-4.7 9.7h-4.8l-4.7-9.7v9.7h-5.8Z"/>
-    <path d="M130.8 119.5l6.6-16.8h6.8l6.6 16.8h-6.3l-.9-2.7H138l-.9 2.7h-6.3Zm8.4-6.9h3.2l-1.6-4.8-1.6 4.8Z"/>
-    <path d="M154.1 119.5v-16.8h5.5l6.1 7.7v-7.7h5.9v16.8h-5.5l-6.1-7.6v7.6h-5.9Z"/>
-    <path d="M176.4 119.5v-16.8h6.1v16.8h-6.1Z"/>
-    <path d="M190.8 119.5v-6.2l-6.1-10.6h6.7l2.5 5.4 2.5-5.4h6.6l-6.1 10.6v6.2h-6.1Z"/>
-    <path d="M203 119.5l6.6-16.8h6.8l6.6 16.8h-6.3l-.9-2.7h-5.6l-.9 2.7H203Zm8.4-6.9h3.2l-1.6-4.8-1.6 4.8Z"/>
-    <path d="M228.1 119.5v-11.9h-5.2v-4.9h16.5v4.9h-5.2v11.9h-6.1Z"/>
+
+  <g filter="url(#sm-soft-shadow)">
+    <g fill="none" stroke="url(#sm-gold)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M156 54c-35 2-62 31-62 68 0 25 13 47 33 59" stroke-width="11"/>
+      <path d="M157 75c-24 2-42 22-42 47 0 18 10 35 25 43" stroke-width="9"/>
+      <path d="M155 96c-13 3-22 14-22 28 0 11 6 22 16 27" stroke-width="8"/>
+      <path d="M153 120c10 0 18 8 18 18" stroke-width="8"/>
+    </g>
+
+    <g fill="#fff7e8">
+      <path d="M122 184h56v14c0 10-7 17-17 17h-22c-10 0-17-7-17-17v-14Z"/>
+      <path d="M128 224h44c-3 11-11 18-22 18s-19-7-22-18Z"/>
+    </g>
+
+    <path
+      d="M520 52c75-20 150 18 175 90 12 34 10 72-7 103 5-52-19-102-64-130-38-23-85-24-125-4 3-24 10-44 21-59Z"
+      fill="url(#sm-gold)"
+    />
+    <path
+      d="M518 201c41 23 91 22 131-4 27-18 46-45 56-75 4 51-24 101-72 125-46 23-101 15-139-20 4-10 12-19 24-26Z"
+      fill="url(#sm-gold)"
+    />
+
+    <g fill="#fff7e8">
+      <path d="M222 164c-21 0-39-4-54-12-15-8-26-19-34-34l38-20c5 10 12 18 21 23 9 5 20 8 32 8 11 0 20-2 26-6 6-4 9-9 9-16 0-7-4-13-11-17-7-4-19-8-36-12-20-5-36-10-48-16-12-6-21-14-28-24-7-10-10-22-10-37 0-25 9-44 27-58 18-14 42-21 70-21 45 0 79 17 101 50l-37 23c-14-22-35-33-63-33-10 0-18 2-23 6-6 4-9 10-9 17 0 7 3 12 10 16 7 4 18 8 34 12 22 5 39 11 51 17 12 6 22 14 29 24 7 10 11 23 11 39 0 25-9 44-28 58-19 15-45 22-79 22Z" transform="translate(14 23) scale(.62)"/>
+      <path d="M347 162V-14h43v67h71v-67h43v176h-43V91h-71v71h-43Z" transform="translate(14 23) scale(.62)"/>
+      <path d="M609 164c-27 0-49-9-67-27-18-18-27-40-27-67 0-27 9-49 27-67 18-18 40-27 67-27s50 9 68 27c18 18 27 40 27 67 0 27-9 49-27 67-18 18-41 27-68 27Zm0-39c15 0 27-5 36-15 10-10 14-23 14-40s-5-30-14-40c-9-10-21-15-36-15-14 0-26 5-36 15-9 10-14 23-14 40s5 30 14 40c10 10 22 15 36 15Z" transform="translate(14 23) scale(.62)"/>
+      <path d="M218 220v-42h19l13 25 13-25h19v42h-14v-24l-12 24h-12l-12-24v24h-14Z"/>
+      <path d="M292 220l18-42h16l18 42h-15l-3-8h-16l-3 8h-15Zm22-19h9l-4-12-5 12Z"/>
+      <path d="M356 220v-42h14l26 25v-25h15v42h-14l-26-25v25h-15Z"/>
+      <path d="M430 220v-42h15v42h-15Z"/>
+      <path d="M470 220v-16l-22-26h18l12 15 12-15h18l-23 26v16h-15Z"/>
+      <path d="M506 220l18-42h16l18 42h-15l-3-8h-16l-3 8h-15Zm22-19h9l-4-12-5 12Z"/>
+      <path d="M571 220v-29h-18v-13h51v13h-18v29h-15Z"/>
+    </g>
+
+    <text
+      x="700"
+      y="70"
+      fill="#fff7e8"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="25"
+      font-weight="700"
+      letter-spacing="0"
+    >TM</text>
   </g>
 </svg>
